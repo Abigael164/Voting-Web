@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Black youngsters initiative</title>
+    <link rel="stylesheet" href="vote.css">
+    <script src="https://kit.fontawesome.com/1ad77a985a.js" crossorigin="anonymous"></script>
+    <link rel="icon" href="https://i.pinimg.com/736x/41/e6/45/41e6458e59ac03d50b3d224f8e05fdfc.jpg">
+    <script src="https://kit.fontawesome.com/1ad77a985a.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <div class="container">
+        <div class="navbar">
+            <h1><span>
+            Presidency <br>online voting system</span>
+            <ul>
+                <li><a href="#sign">Home</a></li>
+  
+                <li><a href="#aspirant">Aspirants</a></li>
+                <li><a href="#about">About</a></li>
+            </ul>
+        </div><br><br>
+        <form id="sign">
+            <img src="star.jpg" class="africa" alt="/"><br>
+            <p class="p1"><em>SIGN UP TO VOTE</em></p>
+            <section class="part">
+            <label for="username">Username</label><br>
+            <input type="text" placeholder="username" id="username" autocomplete="on" required><br>
+            <label for="ID">ID card</label><br>
+            <input type="file" placeholder="ID" id="ID" required><br>
+            <label for="email">Email address</label><br>
+            <input type="text" placeholder="email" id="email" autocomplete="on" required><br>
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="password" id="password" maxlength="10" size="10" required><br>
+            <label for="date">Date of birth</label><br>
+            <input type="date" placeholder="DOB" id="date" max="2007-02-26" required><br>
+            <label for="number">Phone number</label><br>
+            <input type="number" placeholder="phone" id="number" maxlength="10" required><br>
+            <input type="submit" value="Sign Up" id="signup" onclick="gotovote()">
+            <p style="position: relative;bottom: 16px;">Already have an account
+            <button type="button" class="button1" onclick="displayLogin() "><a href="#">LOG IN</a></button></p>
+            </section>
+        </form>
+
+        <div id="login" style="display: none;">
+            <form action="/">
+            <p class="p2"><em>LOG IN TO VOTE</em></p>
+            <label for="username">Username</label><br>
+            <input type="text" placeholder="username" id="username" autocomplete="off"><br>
+            <label for="email">Email address</label><br>
+            <input type="text" placeholder="email" id="email" autocomplete="off"><br>
+            <label for="password">Password</label><br>
+            <input type="password" placeholder="password" id="password" maxlength="10" size="10"><br>
+            <input type="submit" value="Submit" id="log1">
+            <p class="p3" style="font-weight: 600;">Do not have an account
+                <button type="button" onclick="displaySignup()" class="button2"><a href="#">SIGN UP</a></button>
+            </p>
+            </form>
+        </div>
+
+        <div id="vote" style="display: none;">
+            <h2>Give your vote!!!</h2>       
+        <label>
+            <input type="radio" name="vote" id="maker" value="maker">
+            Anyieth Maker
+        </label><br>      
+           <label>
+            <input type="radio" name="vote" id="idris" value="idris">
+            Dalman Idris
+            </label><br>
+            <label>
+                <input type="radio" name="vote" id="nyong'o" value="nyong'o">
+                Lupita Nyong'o
+            </label><br>
+            <label>
+                <input type="radio" name="vote" id="damingo" value="damingo">
+                Colman Damingo
+            </label><br>
+            <button class="butvote" onclick="myVote(); displayResult();">Submit vote</button><br>
+            
+            
+        <div id="result" style="display: none;">
+            <table>
+                
+           <h3>Voting results</h3>
+                <tr>            
+                    <td>Anyieth Maker</td>
+                    <td>Dalman Idris</td>
+                    <td>Lupita Nyong'o</td>
+                    <td>Colman Damingo</td>
+
+                </tr>
+                <tr>            
+                    <td id="R1">0</td>
+                    <td id="R2">0</td>
+                    <td id="R3">0</td>
+                    <td id="R4">0</td>
+                </tr>
+            </table>
+        </div>
+        </div>
+
+        <div id="aspirant">
+            <div class="ap1">
+                <img height="300px" width="250px"src="https://i.pinimg.com/736x/89/86/8e/89868ed2327b93bfbdb6a760219c6665.jpg">
+                <br>Name: Miss.Anok Yai<br>
+                Age: 22 years old<br>
+                Country: South sudanese<br>
+                Occupation: CEO Maker youth society<br>
+                #<b style="color: yellowgreen;">Youth is the real power of the nation</b>
+            </div>
+            <div class="ap2">
+                <img height="300px" width="250px" src="https://i.pinimg.com/736x/63/7d/b1/637db16e32f8cdcea16ee87d51fed410.jpg">
+                <br>Name: Mr.Damson Idris<br>
+                Age: 25 years old<br>
+                Nationality: Nigerian<br>
+                Occupation: Lawyer<br>
+                #<b style="color: yellowgreen;">Youth are the makers</b>
+            </div>
+            <div class="ap3">
+                <img height="300px" width="250px" src="https://i.pinimg.com/736x/65/a2/41/65a241c7aa2dc4de73cb164aa3883c1e.jpg">
+                <br>Name: Miss.Lupita Nyong'o<br>
+                Age: 28 years old<br>
+                Nationality: Kenyan<br>
+                Occupation: Founder Together Homes<br>
+                #<b style="color: yellowgreen">Channelizing youth power for <br>nation building</b>
+            </div>
+            <div class="ap4">
+                <img height="300px" width="250px" src="https://i.pinimg.com/736x/d2/30/ac/d230ac7c8f2c8efd383570a319389bc9.jpg">
+                <br>Name: Mr.Colman Damingo<br>
+                Age: 26 years old<br>
+                Nationality: South African<br>
+                Occupation: Model and actor<br>
+                #<b style="color: yellowgreen">Youth can brighten the world</b>
+            </div>
+        </div>
+
+        <div id="about">
+      <h2 style="text-decoration: overline #9acd32 double 1px;color: yellowgreen;">BLACK YOUNGSTERS INITIATIVE</h2>
+      <i style="padding-left: 50px; padding-right: 60px; font-size: 18px;">
+        Motto: Sticks in bundle are unbreakable.<br>
+            Mission: Empower youth,empower humanity.<br> 
+            Vision: Transparency and freedom.</i>
+      <p>We are a society centered at enhancing freedom and <br>eliminating racism within the youth african community.<br>      
+            Involving the african youth in growth and <br>developmeantis our greatest desire and goal.<br>
+            <big>Let's get into leadership and growth together.</big>
+        </p>
+        <div id="social">
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-facebook-f"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-solid fa-phone"></i>
+        </div>
+        <div id="contact">
+            <b>Contact Us:</b><br>
+            Phone : +254789245534<br>
+                (sectetary)
+
+        </div>
+        </div>
+    </div>
+    <script src="vote.js"></script>
+</body>
+</html>
