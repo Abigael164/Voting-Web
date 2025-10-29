@@ -1,12 +1,10 @@
-# Voting Web
+**##Voting Web**
+This is an online voting system where I used HTML for structure, CSS for styling and Javascript for interactivity.
+It allows the voter to sign up or login, vote for their preferred candidate and provide a description of the candidates.
 
-This is an online voting system built with HTML, CSS, and JavaScript. It allows voters to sign up or log in, view candidates, and cast votes.
-
-## Features
-
-- Authentication — Sign up and log in to access voting.
-- Vote casting — Select and submit a vote for a preferred candidate.
-- Aspirants page — View candidate details and descriptions.
-- About page — Information about the election initiative.
-- Client-side interactivity — JavaScript-powered validations and UI interactions.
-- Built with HTML & CSS — Simple layout with basic responsiveness.
+**##FEATURES**
+"-"Authentication page for user authentication
+"-"Voting page to vote by checking their preferred candidate
+"-"Aspirants page to check details about the aspirant
+"-"About page that describes the initiative carring out the election
+"-"Contacts of the initiative incase of any problem
