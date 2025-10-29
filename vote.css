@@ -1,0 +1,218 @@
+body{
+    margin: 0px;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-size: 1.1em;
+}
+h1 {
+    background-color: greenyellow;
+    margin: 0px;
+    height: 70px;
+    font-size: 26px;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%;
+    position: fixed;
+    top: -15px;
+    z-index: 999;
+    padding-top: 20px;
+    padding-left: 5px;
+}
+img.africa{
+    height: 180px;
+    width: 160px;
+    position: relative;
+    top: 50px;
+    left: -450px;
+    border-radius: 100px;
+}
+ul{
+    position: fixed;
+    right: 40px;
+    top: 0px;
+    float: right;
+    display: flex;
+    z-index: 9999;
+}
+ul li{
+align-items: center;
+list-style: none;
+}
+ul li a{
+text-decoration: none;
+padding: 0px 15px;
+font-size: 20px;
+transition: 0.3s ease;
+color: purple;
+}
+ul li a:hover{
+color: orangered;
+text-decoration: overline 1px;
+}
+form#sign{
+    background-image: url(https://i.pinimg.com/736x/7b/11/1c/7b111cc7f2002815c7f81bdbe4f2b64c.jpg);
+    justify-items: center;
+    height: 94vh;
+    font-size: 22px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: burlywood;
+    font-weight: 600;
+    z-index: 1;
+    position: relative;
+    overflow: ;
+}
+form p.p1{
+    font-weight: bolder;
+    padding-top: 0px;
+    color: cyan;
+    font-weight: bolder;
+    text-decoration: overline 1px;
+    position: relative;
+    top: -160px;
+    justify-items: center;
+}
+form#sign section.part{
+    position: relative;
+    top: -60px;
+}
+form label, input{
+    font-weight: 50px;
+    font-size: 20px;
+}
+form input{
+    border-radius: 7px;
+    color: black;
+}
+button.button1 a{
+    text-decoration: none;
+}
+button.button1{
+    border-radius: 7px;
+}
+button.button1:hover{
+    background-color: mediumseagreen;
+}
+div#login{
+    position: relative;
+    left: 0px;
+    background-image: url(https://i.pinimg.com/736x/7b/11/1c/7b111cc7f2002815c7f81bdbe4f2b64c.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    height: 90vh;
+    color: burlywood;
+    justify-items: center;
+    margin: 0px;
+    overflow: hidden;
+}
+div#login p.p2{
+font-size: 25px;
+padding-top: 15px;
+color: aqua;
+font-weight: bolder;
+}
+div#login label{
+    font-weight: 600;
+}
+button.button2{
+    border-radius: 7px;
+}
+button.button2 a{
+    text-decoration: none;
+}
+button.button2:hover{
+    background-color: grey;
+}
+
+div#aspirant{
+    display: flex;
+    background-color: black;
+    color: white;
+    background-position: center;
+    height: 90vh;
+    flex-wrap: wrap;
+    justify-items: center;
+    justify-content: space-between;
+    align-content: space-between;
+}
+div.ap1,div.ap2,div.ap3,div.ap4{
+    border: yellowgreen solid 1px;
+    border-radius: 2px;
+}
+div#vote{
+    display: flex;
+    color: black;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    background-color: yellowgreen;
+    height: 94vh;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    margin-top: 20px;
+
+}
+div#vote button{
+    font-size: 18px;
+    background-color: black;
+    color: yellowgreen;
+    border-radius: 10px;
+    padding: 3px;
+}
+div#vote button:hover{
+    color: black;
+    background-color: greenyellow;
+}
+ div#result table,th,td{
+    border: solid 1px;
+    border-collapse: collapse;
+    padding: 10px;
+}
+div#about{
+    background-color: black;
+    background-position: center;
+    background-size: cover;
+    height: 85vh;
+    position: relative;
+    overflow: hidden;
+    color: burlywood;
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+    
+}
+div#about p{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: oblique;
+}
+div#about div#social{
+    color: yellowgreen;
+    font-size: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    bottom: -75px;
+    left: 400px;
+    text-shadow: 2px 1px 1px;
+}
+div#social i{
+    padding: 6px;
+    transition: ease 0.2s;
+    transform: 0.2S;
+}
+div#social i:hover{
+    color: yellow;
+    transform: translateY(3px)
+}
+div#contact{
+    color: yellowgreen;
+    position: relative;
+    display: flex;
+    bottom: -10px;
+    left: -400px;
+    font-size: 18px;
+}
